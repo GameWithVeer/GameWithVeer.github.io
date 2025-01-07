@@ -4,8 +4,6 @@ description:My Portfolio
 #show_downloads:true
 jekyll-theme-midnight
 
-from datetime import datetime
-
 current_timestamp = datetime.now()
 
 formatted_timestamp = current_timestamp.strftime('%Y-%m-%d %H:%M:%S')
