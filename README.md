@@ -1,4 +1,4 @@
-# CodeWithVeer.github.io
+# GameWithVeer.github.io
 
 ##Projects
 
