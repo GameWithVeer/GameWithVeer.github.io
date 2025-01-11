@@ -4,8 +4,3 @@ description:My Portfolio
 #show_downloads:true
 jekyll-theme-midnight
 
-current_timestamp = datetime.now()
-
-formatted_timestamp = current_timestamp.strftime('%Y-%m-%d %H:%M:%S')
-
-print(formatted_timestamp)
