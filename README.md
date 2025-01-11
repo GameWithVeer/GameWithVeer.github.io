@@ -15,5 +15,4 @@ Description:
 
 Link:
 
-datetime.now()
 
