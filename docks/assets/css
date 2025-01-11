@@ -1,1 +1,27 @@
+from datetime import datetime
+
+# Get the current timestamp
+current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+# HTML content with the timestamp
+html_content = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timestamp Example</title>
+</head>
+<body>
+    <h1>Current Timestamp</h1>
+    <p>The current timestamp is: {current_time}</p>
+</body>
+</html>
+"""
+
+# Save the HTML content to a file
+with open("index.html", "w") as file:
+    file.write(html_content)
+
+print("HTML file generated: index.html")
 
